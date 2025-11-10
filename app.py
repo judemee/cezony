@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 BREVO_API_KEY = os.getenv("BREVO_API_KEY")  # Set this in Railway
-BREVO_SENDER = "rapidsourcecode.com"    # Must be a verified sender in Brevo
+BREVO_SENDER = "rapidsourcecode@gmail.com"    # Must be a verified sender in Brevo
 BREVO_RECEIVER = "j.uzowulu@gmail.com"      # Where order notifications go
 
 
