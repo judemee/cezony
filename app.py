@@ -32,7 +32,7 @@ def submit():
                 "content-type": "application/json"
             },
             json={
-                "sender": {"name": "Cezony Motors", "email": BREVO_SENDER},
+                "sender": {"name": "Cezony Motors Orders", "email": BREVO_SENDER},
                 "to": [{"email": BREVO_RECEIVER}],
                 "subject": f"New Order from {name}",
                 "htmlContent": f"""
